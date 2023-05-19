@@ -7,7 +7,7 @@
       "technologies": [],
       "live_link": "",
       "github_link": "",
-      "image-urls": []
+      "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     }, {
       "id": "",
       "project_name": "",
@@ -15,7 +15,7 @@
       "technologies": [],
       "live_link": "",
       "github_link": "",
-      "image-urls": []
+      "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
       "id": "",
       "project_name": "",
@@ -23,7 +23,7 @@
       "technologies": [],
       "live_link": "",
       "github_link": "",
-      "image-urls": []
+      "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
       "id": "",
       "project_name": "",
@@ -31,7 +31,7 @@
       "technologies": [],
       "live_link": "",
       "github_link": "",
-      "image-urls": []
+      "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
       "id": "",
       "project_name": "",
@@ -39,7 +39,7 @@
       "technologies": [],
       "live_link": "",
       "github_link": "",
-      "image-urls": []
+      "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     }
   ]
 }
