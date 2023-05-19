@@ -3,12 +3,16 @@ const data = require('./data.json');
 
 const app = express();
 
-app.set('view engine', 'pug');
-app.set(express.static('/static', 'public'));
+const port = 3000;
 
+app.set('view engine', 'pug');
+
+app.use('/static', express.static('public'));
 app.use(express.json());
 
 app.get('/', (req, res) => {
   res.locals = data.projects;
   res.render('index');
 });
+
+app.listen(port, () => console.log(`Listening on port ${port}`));
