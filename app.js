@@ -13,6 +13,7 @@ app.use(express.json());
 app.locals = data;
 
 app.get('/', (req, res) => {
+  throw createError(500);
   res.render('index');
 });
 
@@ -33,7 +34,14 @@ app.get('/project/:id', (req, res, next) => {
 
 app.use((req, res, next) => {
   const err = createError(404, 'Page cannot be found');
-  console.log(err.status, err.message);
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.status = (err.status || 500);
+  err.message = (err.message || res.stausCode);
+
+  console.log(res.status, err.message);
   next();
 });
 
