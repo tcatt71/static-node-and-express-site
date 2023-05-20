@@ -1,5 +1,6 @@
 const express = require('express');
 const data = require('./data.json');
+const createError = require('http-errors');
 
 const app = express();
 const port = 3000;
@@ -19,11 +20,21 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
   const id = parseInt(req.params.id);
 
-  const project = data.projects[id];
-  res.render('project', { project });
+  if (id < data.projects.length) {
+    const project = data.projects[id];
+    res.render('project', { project });
+  } else {
+    next();
+  }
+});
+
+app.use((req, res, next) => {
+  const err = createError(404, 'Page cannot be found');
+  console.log(err.status, err.message);
+  next();
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
