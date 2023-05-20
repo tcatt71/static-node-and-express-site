@@ -13,7 +13,6 @@ app.use(express.json());
 app.locals = data;
 
 app.get('/', (req, res) => {
-  throw createError(500);
   res.render('index');
 });
 
