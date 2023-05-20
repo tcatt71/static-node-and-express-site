@@ -19,4 +19,11 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
+app.get('/project/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+
+  project = data.projects[id];
+  res.render('project', { project });
+});
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
