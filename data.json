@@ -1,44 +1,44 @@
 {
   "projects": [
     {
-      "id": "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
+      "id": "0",
+      "project_name": "A Random Quote Generator",
+      "description": "Brings up a web page that generates 1 of 5 random quotes when clicking the Show another quote button.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://tcatt71.github.io/a-random-quote-generator/",
+      "github_link": "https://github.com/tcatt71/a-random-quote-generator",
       "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     }, {
-      "id": "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
+      "id": "1",
+      "project_name": "Data Pagination And Filtering",
+      "description": "This application uses pagination to display up to 9 students to the page and also includes a search bar to filters the display of students by what what has been entered in the search bar.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://tcatt71.github.io/data-pagination-and-filtering/",
+      "github_link": "https://github.com/tcatt71/data-pagination-and-filtering",
       "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
-      "id": "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "An interactive registration form for a fictional Full Stack conference. Includes real time error validation for the name, email, credit card number, zip code, cvv fields and the register for activities section. Also includes error specific messages for the email field.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": " https://tcatt71.github.io/interactive-form/",
+      "github_link": "https://github.com/tcatt71/interactive-form",
       "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
-      "id": "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
+      "id": "3",
+      "project_name": "OOP Game Show App",
+      "description": "A phrase guessing game where the player tries to reveal a hidden phrase by selecting letters that are in the phrase. The player can only guess a letter incorrectly a limited number of times before the player looses.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://tcatt71.github.io/oop-game-show-app/",
+      "github_link": "https://github.com/tcatt71/oop-game-show-app",
       "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     },{
-      "id": "",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
-      "github_link": "",
+      "id": "4",
+      "project_name": "Public API Requests",
+      "description": "This projects builds an employee directory for a fictional startup company: Awesome Startup. It utilizes the Random User Generator API to fetch 12 pseudo employees.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://tcatt71.github.io/public-api-requests/",
+      "github_link": "https://github.com/tcatt71/public-api-requests",
       "image-urls": ["https://placehold.co/550x550", "https://placehold.co/1200x550"]
     }
   ]
