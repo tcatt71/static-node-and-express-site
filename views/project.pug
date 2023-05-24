@@ -36,7 +36,6 @@ block content
 
     .project-img-box.box
     - for (let i = 1; i < project.image_urls.length; i++) 
-      - console.log(project.image_urls.length);
       img.project-img(src=`${project['image_urls'][i]}`, alt= project.project_name)
       
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
