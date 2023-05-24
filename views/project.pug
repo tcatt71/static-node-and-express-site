@@ -35,9 +35,12 @@ block content
         a.btn-link(href= project.github_link target='_blank') GitHub Repo
 
     .project-img-box.box
-
+    - for (let i = 1; i < project.image_urls.length; i++) 
+      - console.log(project.image_urls.length);
+      img.project-img(src=`${project['image_urls'][i]}`, alt= project.project_name)
+      
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${project['image_urls'][1]}`, alt= project.project_name)
+      //- img.project-img(src=`${project['image_urls'][1]}`, alt= project.project_name)
       //- img.project-img(src='https://placehold.it/1200x550', alt='')
       //- img.project-img(src='https://placehold.it/1200x550', alt='')
 

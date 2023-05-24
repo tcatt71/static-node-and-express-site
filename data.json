@@ -13,7 +13,8 @@
       "github_link": "https://github.com/tcatt71/public-api-requests",
       "image_urls": [
         "/static/images/public-api-requests-square.jpg",
-        "/static/images/public-api-requests.jpg"
+        "/static/images/public-api-requests.jpg",
+        "/static/images/public-api-requests2.jpg"
       ]
     },
     {
@@ -29,7 +30,8 @@
       "github_link": "https://github.com/tcatt71/oop-game-show-app",
       "image_urls": [
         "/static/images/oop-game-show-app-square.jpg",
-        "/static/images/oop-game-show-app.jpg"
+        "/static/images/oop-game-show-app.jpg",
+        "/static/images/oop-game-show-app2.jpg"
       ]
     },
     {
@@ -45,7 +47,9 @@
       "github_link": "https://github.com/tcatt71/interactive-form",
       "image_urls": [
         "/static/images/interactive-form-square.jpg",
-        "/static/images/interactive-form.jpg"
+        "/static/images/interactive-form.jpg",
+        "/static/images/interactive-form2.jpg",
+        "/static/images/interactive-form3.jpg"
       ]
     },
     {
@@ -61,7 +65,8 @@
       "github_link": "https://github.com/tcatt71/data-pagination-and-filtering",
       "image_urls": [
         "/static/images/data-pagination-and-filtering-square.jpg",
-        "/static/images/data-pagination-and-filtering.jpg"
+        "/static/images/data-pagination-and-filtering.jpg",
+        "/static/images/data-pagination-and-filtering2.jpg"
       ]
     },
     {
