@@ -33,6 +33,7 @@ app.get('/project/:id', (req, res, next) => {
 
 app.use((req, res, next) => {
   const err = createError(404, 'Page cannot be found');
+  res.render('page-not-found');
   next(err);
 });
 

@@ -300,6 +300,20 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/*
+  page cannot be found styles
+*/
+
+.page-cannot-be-found {
+  max-width: 1200px;
+  padding: 40px 50px 30px;
+}
+
+.page-cannot-be-found h1 {
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  margin: 0 auto 8px;
+}
 
 /* 
   Tablet layout styles 
