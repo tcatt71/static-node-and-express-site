@@ -31,9 +31,21 @@ article {
   background: #fefefe;
 }
 
-h1,h2,h3,h4,h5,p{
+/* -------------- */
+
+/* h1,h2,h3,h4,h5,p{
+  font-family: 'Merriweather', serif;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
   font-family: 'Merriweather', serif;
 }
+
+/* ------------- */
 
 h5{
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
