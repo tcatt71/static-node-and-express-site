@@ -25,6 +25,7 @@ app.get('/project/:id', (req, res, next) => {
 
   if (id < data.projects.length) {
     const project = data.projects[id];
+
     res.render('project', { project });
   } else {
     next();
@@ -33,6 +34,7 @@ app.get('/project/:id', (req, res, next) => {
 
 app.use((req, res, next) => {
   const err = new createError.NotFound('Page cannot be found');
+
   console.log(err.status, err.message);
   res.render('page-not-found');
 });
