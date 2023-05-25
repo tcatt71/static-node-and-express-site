@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  .page-cannot-be-found
+    h1= `${err.status} ${err.message}`
+  
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

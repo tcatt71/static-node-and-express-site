@@ -38,11 +38,11 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-  res.status = (err.status || 500);
+  err.status = (err.status || 500);
   err.message = (err.message || res.stausCode);
 
-  console.log(res.status, err.message);
-  next();
+  console.log(err.status, err.message);
+  res.render('error', { err });
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
