@@ -32,9 +32,9 @@ app.get('/project/:id', (req, res, next) => {
 });
 
 app.use((req, res, next) => {
-  const err = createError(404, 'Page cannot be found');
+  const err = new createError.NotFound('Page cannot be found');
+  console.log(err.status, err.message);
   res.render('page-not-found');
-  next(err);
 });
 
 app.use((err, req, res, next) => {
