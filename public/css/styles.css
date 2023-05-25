@@ -314,7 +314,17 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
+
+  transition: 0.25s;
 }
+
+/* ------------------- */
+
+.btn-link:hover {
+  background-color: #000;
+}
+
+/* ------------------- */
 
 /*
   page cannot be found styles
