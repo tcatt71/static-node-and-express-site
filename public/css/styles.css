@@ -292,6 +292,14 @@ nav a span {
   padding-top: 40px;
 }
 
+/* -------------------- */
+
+.about-bio a {
+  color: #333;
+}
+
+/* -------------------- */
+
 .skills-contact-box ul {
   margin-bottom: 35px;
 }
